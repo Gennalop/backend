@@ -80,7 +80,7 @@ update = () => {
       window.myPie.data.datasets[0].data = [...counts]
 
       window.myPie.update();
-
+      
     })
     .catch(error => console.error('Error:', error));
 }
